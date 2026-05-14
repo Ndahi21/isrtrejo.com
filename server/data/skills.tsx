@@ -155,5 +155,10 @@ export const skills: Skill[] = [
     name: "Colab",
     icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-colab-icon.png",
     link: "https://colab.research.google.com/"
+  },
+  {
+    name: "SolarWinds",
+    icon: "https://assets.topadvisor.com/media/_solution_logo_07162024_42077123.png",
+    link: "https://www.solarwinds.com/"
   }
 ];
