@@ -1,6 +1,5 @@
 import ExperienceCard from "../components/ExperienceCard";
 import { experiences } from "../../server/data/experience";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export function Experience() {
   return (

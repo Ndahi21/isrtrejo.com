@@ -34,12 +34,17 @@ export function Hero() {
           <img 
             src="/images/galaxy.jpg" 
             alt="Galaxy"
-            className = "float-right pt-44 w-[900px] pr-32"
+            className = "float-right pt-32 w-[900px] pr-32"
           />
+          {/* <img 
+            src="/images/black-hole.png" 
+            alt="Galaxy"
+            className="absolute left-[46%] bottom-1/32 w-[700px] object-contain"
+          /> */}
         </div>
 
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
-                      text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth hover:drop-shadow-[0_5px_15px_yellow] transition duration-300">
+            text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth hover:drop-shadow-[0_5px_15px_yellow] transition duration-300">
           <a
             href="#about"
             className="flex flex-col items-center"
@@ -50,20 +55,23 @@ export function Hero() {
         </div>
 
         {/* Content */}
-        <div className={`relative z-10 max-w-2xl pl-16 transition-all duration-700 ${
+        <div className={`relative z-10 max-w-2xl pl-24 transition-all duration-700 ${
               animationComplete
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
             }`}>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-1">
-            Hello, I'm</p>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 
-            leading-tight pb-4">
-            <span className="bg-gradient-to-r from-[rgb(203,215,248)] to-30% to-white bg-clip-text text-transparent">Israel </span>
-            <span className="bg-gradient-to-r from-white from-50% to-[rgb(172,176,230)] bg-clip-text text-transparent">Trejo</span></h1>
-          <p className="text-2xl md:text-3xl text-gray-300 mb-8 font-normal">
-            Exploring the universe of tech</p>
+          <p className="text-xl uppercase tracking-widest text-gray-300 mb-2">
+            Tech Enthusiast • Developer • Designer
+          </p> 
+
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 leading-tight pb-4"> 
+            <span className="text-white">Israel Trejo</span>
+          </h1> 
+
+          <p className="text-xl md:text-2xl uppercase tracking-wide text-gray-300 mb-8 font-normal"> 
+            Exploring the vast universe of tech
+          </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a href="/resume/Israel_Trejo_Resume.pdf" download="Israel_Trejo_Resume.pdf">
