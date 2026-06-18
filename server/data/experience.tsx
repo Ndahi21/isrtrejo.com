@@ -59,7 +59,7 @@ export const experiences: Experience[] = [
     },
     {
         company: "LZ Technologies",
-        role: "Software Engineer Intern",
+        role: "Maintenance & Operations Intern",
         startDate: "Feb 2026",
         endDate: "Present",
         responsibilities: [

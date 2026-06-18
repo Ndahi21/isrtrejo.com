@@ -143,7 +143,7 @@ export const skills: Skill[] = [
   // },
   {
     name: "Power BI",
-    icon: "https://www.onesixsolutions.com/wp-content/uploads/2024/11/Power-BI-Detail-Page.png",
+    icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/power-bi-icon.png",
     link: "https://powerbi.microsoft.com/"
   },
   {
