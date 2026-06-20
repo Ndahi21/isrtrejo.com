@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { GithubIcon, ExternalLink } from "lucide-react";
 
 import { skills as allSkills } from "../../server/data/skills";

@@ -7,6 +7,7 @@ import { Skills } from "./pages/Skills";
 import { Experience } from "./pages/Experience";
 import { Projects } from "./pages/Projects";
 import { Contact } from "./pages/Contact";
+import { LanguageSlider } from './components/LanguageSlider';
 
 export function Hero() {
   const [animationComplete, setAnimationComplete] = useState(false);
@@ -15,6 +16,13 @@ export function Hero() {
       setAnimationComplete(true);
     }, 500);
   }, []);
+
+  const [currentLang, setCurrentLang] = useState<'en' | 'es'>('en');
+  const handleLanguageChange = (lang: 'en' | 'es') => {
+    setCurrentLang(lang);
+    // Add logic here to switch your app translation context or routing
+    console.log("App language updated to:", lang);
+  };
 
   return (
     <>
@@ -101,24 +109,29 @@ export function Hero() {
 
           {/* Social Links */}
           <div className="flex gap-6 pl-4">
-            <a
-              href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-              aria-label="LinkedIn"
-            >
-              <LinkedinIcon size={32} />
-            </a>
-            <a
-              href="https://github.com/Israeli21"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-              aria-label="GitHub"
-            >
-              <GithubIcon size={32} />
-            </a>
+            <div className="flex gap-6">
+              <a
+                href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+                aria-label="LinkedIn"
+              >
+                <LinkedinIcon size={32} />
+              </a>
+              <a
+                href="https://github.com/Israeli21"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+                aria-label="GitHub"
+              >
+                <GithubIcon size={32} />
+              </a>
+            </div>
+            <div>
+              <LanguageSlider initialLanguage={currentLang} onChange={handleLanguageChange} />
+            </div>
           </div>
         </div>
 
