@@ -45,7 +45,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <p className="text-sm text-gray-400 mb-4">
         {project.startDate} - {project.endDate}
       </p>
-      <p className="text-gray-300 mb-6">{project.description}</p>
+      <p className="text-gray-300 mb-6 h-24 overflow-hidden">{project.description}</p>
       <div className="flex flex-wrap gap-3 mt-4">
         {projectSkills.map((skill) => skill && (
           <div key={skill.name} className="relative bg-[#1a1d28] px-1 py-1 hr-1 rounded-lg group hover:bg-[#4682B4]/20 transition-colors">
