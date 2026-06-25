@@ -25,3 +25,26 @@ export const pictures: Picture[] = [
         picture: "/images/my_cat.jpg",
     }
 ];
+
+export const fotos : Picture[] = [
+    {
+        name: "Israel Trejo",
+        picture: "/images/Israel_Trejo.jpg",
+    },
+    {
+        name: "Dibujos de Comics",
+        picture: "/images/comic_characters_designs.jpg",
+    },
+    {
+        name: "Dibujo en Vivo",
+        picture: "/images/live_drawing.jpg",
+    },
+    {
+        name: "Dibujo en Vivo 2",
+        picture: "/images/live_drawing2.jpg",
+    },
+    {
+        name: "Mi Gato",
+        picture: "/images/my_cat.jpg",
+    }
+];

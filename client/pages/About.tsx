@@ -1,5 +1,5 @@
 import { PicturePile } from "../components/PicturePile";
-import { pictures } from "../../server/data/pictures";
+import { fotos, pictures } from "../../server/data/pictures";
 
 type AboutProps = {
   language: 'en' | 'es';
@@ -18,7 +18,11 @@ export function About({ language }: AboutProps) {
       </div>
       <div className="grid grid-cols-3">
         <div className="grid col-span-1 flex items-center justify-center">
-          <PicturePile pictures={pictures} />
+          {language === 'en' ? (
+            <PicturePile pictures={pictures} />
+          ) : (
+            <PicturePile pictures={fotos} />
+          )} 
         </div>
         <div className="grid col-span-2 pl-20 max-w-3xl text-lg md:text-xl leading-relaxed">
           <div className="flex flex-col justify-center h-full pb-36">
