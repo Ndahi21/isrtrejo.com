@@ -16,8 +16,9 @@ export function Contact({ language }: ContactProps) {
       </div>
 
       <div>
-        <img className="absolute bottom-[16.2857%] left-36 w-[370px]"
-             src="/images/astronaut.jpg"/>
+        <img className="absolute bottom-[16.2857%] left-36 w-[370px] opacity-20
+          xl:opacity-100"
+          src="/images/astronaut.jpg"/>
       </div>
 
       <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">{language === 'en' ? 'Contact Me' : 'Contáctame'}</h2>

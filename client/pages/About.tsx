@@ -25,7 +25,7 @@ export function About({ language }: AboutProps) {
           )} 
         </div>
         <div className="grid col-span-1 mt-24 lg:col-span-2 lg:mt-0 pl-0 lg:pl-20 text-lg md:text-xl leading-relaxed">
-          <div className="flex flex-col justify-center h-full pb-36 max-w-3xl">
+          <div className="flex flex-col justify-center h-full pb-8 lg:pb-36 max-w-3xl">
             {language === 'en' ? (
               <>
                 <p className="mb-4">
@@ -52,10 +52,10 @@ export function About({ language }: AboutProps) {
             )}
           </div>
           <div className="hidden lg:block group relative w-full">
-            <img className="absolute bottom-[-70px] right-4 w-[400px]
+            <img className="absolute bottom-[-70px] left-[280px] w-[400px]
               filter grayscale brightness-200 contrast-100 mix-blend-screen" 
               src="/images/pulsar_map.png"/>
-            <div className="absolute border border-gray-500 bg-black bottom-[50px] right-[430px] w-[260px] text-sm py-4 px-5">
+            <div className="absolute border border-gray-500 bg-black bottom-[50px] left-0 w-[260px] text-sm py-4 px-5">
               {language === 'en' ? (
                 <p><span className="font-bold">Pulsar Map: </span>This diagram appears on the covers of the Voyager spacecrafts. Used to locate Earth in the galaxy, using 14 pulsars</p>
               ) : (
