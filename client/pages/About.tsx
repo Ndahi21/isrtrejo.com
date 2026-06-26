@@ -16,7 +16,7 @@ export function About({ language }: AboutProps) {
         <div className="stars2"></div>
         <div className="stars3"></div>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 lg:grid-cols-3">
         <div className="grid col-span-1 flex items-center justify-center">
           {language === 'en' ? (
             <PicturePile pictures={pictures} />
@@ -24,8 +24,8 @@ export function About({ language }: AboutProps) {
             <PicturePile pictures={fotos} />
           )} 
         </div>
-        <div className="grid col-span-2 pl-20 max-w-3xl text-lg md:text-xl leading-relaxed">
-          <div className="flex flex-col justify-center h-full pb-36">
+        <div className="grid col-span-1 mt-24 lg:col-span-2 lg:mt-0 pl-0 lg:pl-20 text-lg md:text-xl leading-relaxed">
+          <div className="flex flex-col justify-center h-full pb-36 max-w-3xl">
             {language === 'en' ? (
               <>
                 <p className="mb-4">
@@ -51,7 +51,7 @@ export function About({ language }: AboutProps) {
               </>
             )}
           </div>
-          <div className="group relative">
+          <div className="hidden lg:block group relative w-full">
             <img className="absolute bottom-[-70px] right-4 w-[400px]
               filter grayscale brightness-200 contrast-100 mix-blend-screen" 
               src="/images/pulsar_map.png"/>

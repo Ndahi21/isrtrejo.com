@@ -42,7 +42,8 @@ export function Hero() {
           <img 
             src="/images/galaxy.jpg" 
             alt="Galaxy"
-            className = "float-right pt-32 w-[900px] pr-32"
+            className="float-right pt-32 w-[900px] pr-32 opacity-50
+              md:w-[1200px] xl:opacity-100"
           />
         </div>
 
