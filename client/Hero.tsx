@@ -111,7 +111,7 @@ export function Hero() {
         </div>
 
         {/* Galaxy Image */}
-        <div className="pointer-events-none">
+        <div className="pointer-events-none -ml-28">
           <img 
             src="/images/galaxy.jpg" 
             alt="Galaxy"
