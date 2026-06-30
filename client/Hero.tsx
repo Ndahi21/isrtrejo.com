@@ -104,7 +104,7 @@ export function Hero() {
                 <LinkedinIcon size={32} />
               </a>
               <a
-                href="https://github.com/Israeli21"
+                href="https://github.com/Ndahi21"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"

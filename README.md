@@ -14,7 +14,7 @@ After, I used these lines in order to add my local folder to connect to my githu
 
 `git branch -M main`
 
-`git remote add origin https://github.com/Israeli21/israeltrejo.net.git`
+`git remote add origin https://github.com/Ndahi21/israeltrejo.net.git`
 
 `git push -u origin main`
 

@@ -23,7 +23,7 @@ export const projects: Project[] = [
         description: "Developed an AI-driven tool to assist non-profits in writing grant proposals, reducing time spent on drafting by 40% through automated content generation and formatting suggestions.",
         startDate: "Oct 2025",
         endDate: "Dec 2025",
-        link: "https://github.com/Israeli21/altairium-grant-writing-tool",
+        link: "https://github.com/Ndahi21/altairium-grant-writing-tool",
         skills: ["TypeScript", "Python", "React", "Tailwind", "Supabase", "Git"],
         liveLink: ""
     },
@@ -32,7 +32,7 @@ export const projects: Project[] = [
         description: "Led a team of 4 in developing an AI-powered web app that identified optimal U.S. locations for renewable energyfacilities, integrating geospatial & climate datasets for model training, improving decision efficiency by 35%",
         startDate: "Oct 2025",
         endDate: "Nov 2025",
-        link: "https://github.com/Israeli21/CodeRED",
+        link: "https://github.com/Ndahi21/CodeRED",
         skills: ["Jupyter", "Python", "Pandas", "Streamlit", "Git", "Sklearn"],
         liveLink: ""
     },
@@ -71,7 +71,7 @@ export const proyectos: Project[] = [
         description: "Desarrollé una herramienta impulsada por IA para ayudar a las organizaciones sin fines de lucro a redactar propuestas de subvención, reduciendo el tiempo dedicado a la redacción en un 40% mediante la generación automatizada de contenido y sugerencias de formato.",
         startDate: "Oct 2025",
         endDate: "Dec 2025",
-        link: "https://github.com/Israeli21/altairium-grant-writing-tool",
+        link: "https://github.com/Ndahi21/altairium-grant-writing-tool",
         skills: ["TypeScript", "Python", "React", "Tailwind", "Supabase", "Git"],
         liveLink: ""
     },
@@ -80,7 +80,7 @@ export const proyectos: Project[] = [
         description: "Dirigí a 4 personas en el desarrollo de una app web con IA que identifica ubicaciones para energía renovable en EE. UU. Integré datos geoespaciales y climáticos para entrenar el modelo, mejorando la toma de decisiones un 35%.",
         startDate: "Oct 2025",
         endDate: "Nov 2025",
-        link: "https://github.com/Israeli21/CodeRED",
+        link: "https://github.com/Ndahi21/CodeRED",
         skills: ["Jupyter", "Python", "Pandas", "Streamlit", "Git", "Sklearn"],
         liveLink: ""
     },
