@@ -35,17 +35,8 @@ export function Hero() {
       
       <section 
         id="home"
-        className="relative min-h-screen w-full flex items-center px-6 md:px-12 lg:px-20 overflow-hidden"
+        className="relative justify-center bg-black min-h-screen w-full flex items-center px-6 md:px-12 lg:px-20 overflow-hidden"
       >
-        {/* Galaxy Image */}
-        <div className="absolute inset-0 bg-black pointer-events-none">
-          <img 
-            src="/images/galaxy.jpg" 
-            alt="Galaxy"
-            className="float-right pt-32 w-[900px] pr-32 opacity-40
-              xl:opacity-100"
-          />
-        </div>
 
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
             text-[#4ECDC4] transition-colors duration-300 z-20 scroll-smooth hover:drop-shadow-[0_5px_15px_yellow] transition duration-300">
@@ -59,7 +50,7 @@ export function Hero() {
         </div>
 
         {/* Content */}
-        <div className={`relative z-10 max-w-2xl pl-24 transition-all duration-700 ${
+        <div className={`relative z-10 w-[800px] transition-all duration-700 xl:pl-28 ${
               animationComplete
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
@@ -117,6 +108,16 @@ export function Hero() {
               <LanguageSlider initialLanguage={currentLang} onChange={handleLanguageChange} />
             </div>
           </div>
+        </div>
+
+        {/* Galaxy Image */}
+        <div className="pointer-events-none">
+          <img 
+            src="/images/galaxy.jpg" 
+            alt="Galaxy"
+            className="float-right w-[900px] pr-0 opacity-40
+              xl:opacity-100"
+          />
         </div>
 
       </section>
