@@ -56,15 +56,15 @@ export function Hero() {
                 : "translate-y-8 opacity-0"
             }`}>
 
-          <p className="text-xl uppercase tracking-widest text-gray-300 mb-2">
+          <p className="text-xl uppercase tracking-widest text-gray-300 mb-2 whitespace-nowrap">
             {currentLang === 'en' ? 'Tech Enthusiast • Developer • Designer' : 'Ingeniero • Desarrollador • Diseñador'}
           </p>
 
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 leading-tight pb-4"> 
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 leading-tight pb-4 whitespace-nowrap"> 
             <span className="text-white">Israel Trejo</span>
           </h1> 
 
-          <p className="text-xl md:text-2xl uppercase tracking-wide text-gray-300 mb-8 font-normal"> 
+          <p className="text-xl md:text-2xl uppercase tracking-wide text-gray-300 mb-8 font-normal whitespace-nowrap"> 
             {currentLang === 'en' ? 'Exploring the vast universe of tech' : 'Explorando el universo de la tecnología'}
           </p>
 
