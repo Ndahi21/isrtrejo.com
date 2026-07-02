@@ -18,7 +18,6 @@ export function Projects({ language }: ProjectsProps) {
           ))}
         </div>
       </div>
-      <img src="/images/golden-disk.png" alt="Decorative" className="absolute top-[210px] right-[300px] w-72 pointer-events-none" />
     </section>
   )
 }
