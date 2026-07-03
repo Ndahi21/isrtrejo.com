@@ -25,7 +25,7 @@ export function About({ language }: AboutProps) {
           )} 
         </div>
         <div className="grid col-span-1 mt-24 lg:col-span-2 lg:mt-0 pl-0 lg:pl-20 text-lg md:text-xl leading-relaxed">
-          <div className="flex flex-col justify-center h-full pb-8 lg:pb-36 max-w-3xl">
+          <div className="flex flex-col justify-center h-full pb-8 lg:pb-36 max-w-2xl">
             {language === 'en' ? (
               <>
                 <p className="mb-4">
