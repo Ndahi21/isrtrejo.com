@@ -11,7 +11,7 @@ export function Projects({ language }: ProjectsProps) {
       <h2 className="text-4xl md:text-5xl font-bold mb-8">
         {language === 'en' ? 'My Projects' : 'Mis Proyectos'}
       </h2>
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-6 relative z-10 pr-36">
         <div className="flex flex-col gap-6 md:gap-8 max-w-5xl mx-auto">
           {(language === 'en' ? projects : proyectos).map((project) => (
             <ProjectCard key={project.title} project={project} />

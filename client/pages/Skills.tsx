@@ -18,7 +18,14 @@ export function Skills({ language }: SkillsProps) {
           ))}
         </div>
       </div>
-      <img src="/images/golden-disk.png" alt="Decorative" className="absolute gradient top-[230px] right-[120px] w-96 pointer-events-none" style={{ maskImage: 'linear-gradient(to right, transparent 0%, black 50%, black 100%)', WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 50%, black 100%)' }} />
+      <img src="/images/golden-disk.png" alt="Decorative" className="absolute gradient top-[230px] right-[120px] w-96" style={{ maskImage: 'linear-gradient(to right, transparent 0%, black 50%, black 100%)', WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 50%, black 100%)' }} />
+      <div className="absolute border border-gray-500 bg-black bottom-[70px] right-[120px] w-[250px] text-sm py-4 px-5">
+        {language === 'en' ? (
+          <p><span className="font-bold">Voyager Golden Record: </span>Earth's "Message in a bottle". Containing greetings in 55 languages, music, and sounds of Earth</p>
+        ) : (
+          <p><span className="font-bold">Disco de Oro de Voyager: </span>El "mensaje en una botella" de la Tierra. Contiene saludos en 55 idiomas, música y sonidos de la Tierra</p>
+        )}
+      </div>
     </section>
   );
 }
