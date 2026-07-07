@@ -18,6 +18,9 @@ export function Projects({ language }: ProjectsProps) {
           ))}
         </div>
       </div>
+      <div>
+        <img src="/images/rocket-launch.png" alt="Decorative" className="absolute bottom-36 right-[200px] w-[35vw] pointer-events-none" />
+      </div>
     </section>
   )
 }
