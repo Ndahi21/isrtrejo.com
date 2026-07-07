@@ -7,7 +7,6 @@ import { Skills } from "./pages/Skills";
 import { Experience } from "./pages/Experience";
 import { Projects } from "./pages/Projects";
 import { Contact } from "./pages/Contact";
-import { LanguageSlider } from './components/LanguageSlider';
 
 export function Hero() {
   const [animationComplete, setAnimationComplete] = useState(false);
@@ -18,15 +17,10 @@ export function Hero() {
   }, []);
 
   const [currentLang, setCurrentLang] = useState<'en' | 'es'>('en');
-  const handleLanguageChange = (lang: 'en' | 'es') => {
-    setCurrentLang(lang);
-    // Add logic here to switch your app translation context or routing
-    console.log("App language updated to:", lang);
-  };
 
   return (
     <>
-      <TopBar />
+      <TopBar currentLang={currentLang} onLanguageChange={setCurrentLang} />
       <div className="absolute inset-0 opacity-70 pointer-events-none">
         <div className="stars"></div>
         <div className="stars2"></div>
@@ -103,9 +97,6 @@ export function Hero() {
               >
                 <GithubIcon size={32} />
               </a>
-            </div>
-            <div>
-              <LanguageSlider initialLanguage={currentLang} onChange={handleLanguageChange} />
             </div>
           </div>
         </div>

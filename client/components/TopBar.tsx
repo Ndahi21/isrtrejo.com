@@ -1,13 +1,24 @@
-export function TopBar() {
+import { LanguageSlider } from "./LanguageSlider";
+
+interface TopBarProps {
+  currentLang: 'en' | 'es';
+  onLanguageChange: (lang: 'en' | 'es') => void;
+}
+
+export function TopBar({ currentLang, onLanguageChange }: TopBarProps) {
+
   return ( 
     <nav className="fixed bg-black bg-gradient-to-r from-gray-900 to-black top-0 left-0 w-full z-50 px-6 md:px-12 lg:px-20 py-6">
       <div className="flex justify-between items-center">
         {/* Logo/Name on the left */}
-        <div className="text-2xl font-bold text-white">
+        <div className="flex gap-8 text-2xl font-bold text-white">
           <a href="#home"
             className="text-white hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)] duration-300">
             Trejo
           </a>
+          <div>
+            <LanguageSlider initialLanguage={currentLang} onChange={onLanguageChange} />
+          </div>
         </div>
         
         {/* Navigation links on the right */}
