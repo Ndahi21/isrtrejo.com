@@ -128,7 +128,7 @@ export const skills: Skill[] = [
   },
   {
     name: "Jupyter",
-    icon: "https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_200,h_200/https://api.charmhub.io/api/v1/media/download/charm_RswXkJwVSTxU29GnlSeSjzRSsPzhOGsh_icon_fde574967418afe93bb032808563e40e63606adb805113065acfa35010332164.png",
+    icon: "https://images.seeklogo.com/logo-png/35/1/jupyter-logo-png_seeklogo-354673.png",
     link: "https://jupyter.org/"
   },
   {
