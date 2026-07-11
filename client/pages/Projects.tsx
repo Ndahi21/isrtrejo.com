@@ -12,14 +12,14 @@ export function Projects({ language }: ProjectsProps) {
         {language === 'en' ? 'My Projects' : 'Mis Proyectos'}
       </h2>
       <div className="container mx-auto px-6 relative z-50 pr-36">
-        <div className="flex flex-col gap-6 md:gap-8 max-w-5xl mx-auto">
+        <div className="flex flex-col gap-4 md:gap-6 max-w-5xl mx-auto">
           {(language === 'en' ? projects : proyectos).map((project) => (
             <ProjectCard key={project.title} project={project} />
           ))}
         </div>
       </div>
       <div>
-        <img src="/images/rocket-launch.png" alt="Decorative" className="absolute z-100 bottom-36 right-[200px] w-[500px] pointer-events-none" />
+        <img src="/images/rocket-launch.png" alt="Decorative" className="absolute z-100 bottom-32 right-[140px] w-[600px] pointer-events-none" />
       </div>
     </section>
   )
