@@ -51,7 +51,7 @@ export function Hero() {
             }`}>
 
           <p className="text-xl uppercase tracking-widest text-gray-300 mb-2 whitespace-nowrap">
-            {currentLang === 'en' ? 'Tech Enthusiast • Developer • Designer' : 'Ingeniero • Desarrollador • Diseñador'}
+            {currentLang === 'en' ? 'HELLO WORLD, I\'M' : 'Ingeniero • Desarrollador • Diseñador'}
           </p>
 
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 leading-tight pb-4 whitespace-nowrap"> 
@@ -80,7 +80,7 @@ export function Hero() {
           <div className="flex gap-6 pl-4">
             <div className="flex gap-6">
               <a
-                href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
+                href="https://www.linkedin.com/in/israeltrejo07/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
