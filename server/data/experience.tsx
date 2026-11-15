@@ -10,10 +10,22 @@ export type Experience = {
 
 export const experiences: Experience[] = [
     {
+        company: "Amentum",
+        role: "Information Technology Intern",
+        startDate: "Aug 2026",
+        endDate: "Present",
+        responsibilities: [
+            "Support the COSMOS contract on-site at the NASA Johnson Space Center",
+            "Developed and organized SolarWinds Support Center dashboards, reducing the time required to locate relevant widgets and information by 50%"
+        ],
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqn7jQxK6sV3gd0un_9CXLN2TdXcDXBsSyQva8ac0BWJHECFltdVb1Op1F&s=10",
+        link: "https://www.amentum.com/"
+    },
+    {
         company: "LZ Technologies",
         role: "Maintenance & Operations Intern",
         startDate: "Feb 2026",
-        endDate: "Present",
+        endDate: "Jul 2026",
         responsibilities: [
             "Supporting the MSOC contract with KBR to work on-site at NASA within the Recon and Training Operations Department",
             "Designed and implemented entry and filtering features to create detailed, searchable logs for Ground Control Console systems"
@@ -21,18 +33,18 @@ export const experiences: Experience[] = [
         image: "/images/LZ_logo.png",
         link: "https://lzt.biz/"
     },
-    {
-        company: "Energy AI Solutions",
-        role: "Software Engineer Intern",
-        startDate: "Jan 2026",
-        endDate: "May 2026",
-        responsibilities: [
-            "Integrated Recombee to build a recommendation system that suggests personalized jobs and tasks to users",
-            "Strong collaboration with 10 team members to research techniques, propose solutions & deliver project outcomes"
-        ],
-        image: "https://media.licdn.com/dms/image/v2/D560BAQH19ltvviaYZQ/company-logo_200_200/company-logo_200_200/0/1709233092071/energyaisolutions_logo?e=2147483647&v=beta&t=gjzgPbwXbRAoXJUfr93d_V4_vkTT3BIWak67zHRYyBI",
-        link: "https://energyaisolutions.com/"
-    },
+    // {
+    //     company: "Energy AI Solutions",
+    //     role: "Software Engineer Intern",
+    //     startDate: "Jan 2026",
+    //     endDate: "May 2026",
+    //     responsibilities: [
+    //         "Integrated Recombee to build a recommendation system that suggests personalized jobs and tasks to users",
+    //         "Strong collaboration with 10 team members to research techniques, propose solutions & deliver project outcomes"
+    //     ],
+    //     image: "https://media.licdn.com/dms/image/v2/D560BAQH19ltvviaYZQ/company-logo_200_200/company-logo_200_200/0/1709233092071/energyaisolutions_logo?e=2147483647&v=beta&t=gjzgPbwXbRAoXJUfr93d_V4_vkTT3BIWak67zHRYyBI",
+    //     link: "https://energyaisolutions.com/"
+    // },
     {
         company: "Structures & Artificial Intelligence Lab",
         role: "Undergraduate Researcher",
@@ -49,6 +61,18 @@ export const experiences: Experience[] = [
 
 export const experiencias: Experience[] = [
     {
+        company: "Amentum",
+        role: "Information Technology Intern",
+        startDate: "Aug 2026",
+        endDate: "Present",
+        responsibilities: [
+            "Support the COSMOS contract on-site at the NASA Johnson Space Center",
+            "Developed and organized SolarWinds Support Center dashboards, reducing the time required to locate relevant widgets and information by 50%"
+        ],
+        image: "/images/amentum_logo.png",
+        link: "https://www.amentum.com/"
+    },
+    {
         company: "LZ Technologies",
         role: "Maintenance & Operations Intern",
         startDate: "Feb 2026",
@@ -60,18 +84,18 @@ export const experiencias: Experience[] = [
         image: "/images/LZ_logo.png",
         link: "https://lzt.biz/"
     },
-    {
-        company: "Energy AI Solutions",
-        role: "Software Engineer Intern",
-        startDate: "Jan 2026",
-        endDate: "May 2026",
-        responsibilities: [
-            "Integró Recombee para construir un sistema de recomendación que sugiere trabajos y tareas personalizadas a los usuarios",
-            "Fuerte colaboración con 10 miembros del equipo para investigar técnicas, proponer soluciones y entregar resultados del proyecto"
-        ],
-        image: "https://media.licdn.com/dms/image/v2/D560BAQH19ltvviaYZQ/company-logo_200_200/company-logo_200_200/0/1709233092071/energyaisolutions_logo?e=2147483647&v=beta&t=gjzgPbwXbRAoXJUfr93d_V4_vkTT3BIWak67zHRYyBI",
-        link: "https://energyaisolutions.com/"
-    },
+    // {
+    //     company: "Energy AI Solutions",
+    //     role: "Software Engineer Intern",
+    //     startDate: "Jan 2026",
+    //     endDate: "May 2026",
+    //     responsibilities: [
+    //         "Integró Recombee para construir un sistema de recomendación que sugiere trabajos y tareas personalizadas a los usuarios",
+    //         "Fuerte colaboración con 10 miembros del equipo para investigar técnicas, proponer soluciones y entregar resultados del proyecto"
+    //     ],
+    //     image: "https://media.licdn.com/dms/image/v2/D560BAQH19ltvviaYZQ/company-logo_200_200/company-logo_200_200/0/1709233092071/energyaisolutions_logo?e=2147483647&v=beta&t=gjzgPbwXbRAoXJUfr93d_V4_vkTT3BIWak67zHRYyBI",
+    //     link: "https://energyaisolutions.com/"
+    // },
     {
         company: "Structures & Artificial Intelligence Lab",
         role: "Undergraduate Researcher",
