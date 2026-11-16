@@ -35,7 +35,7 @@ export function About({ language }: AboutProps) {
                   I'm a team player that enjoys working and growing with others!
                 </p>
                 <p>
-                  My hobbies outside of tech include drawing comics, animating, playing the guitar and lifting weights at home.
+                  My hobbies outside of tech include traveling, drawing comics, and exploring new creative outlets
                 </p>
               </>
             ) : (

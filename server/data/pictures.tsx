@@ -9,16 +9,16 @@ export const pictures: Picture[] = [
         picture: "/images/Israel_Trejo.jpg",
     },
     {
+        name: "Mexico Trip",
+        picture: "/images/mexico.png",
+    },
+    {
         name: "Comic Drawings",
         picture: "/images/comic_characters_designs.jpg",
     },
     {
         name: "Live Drawing",
         picture: "/images/live_drawing.jpg",
-    },
-    {
-        name: "Live Drawing 2",
-        picture: "/images/live_drawing2.jpg",
     },
     {
         name: "My Cat",
