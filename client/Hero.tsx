@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { GithubIcon, LinkedinIcon, ArrowDownIcon } from "lucide-react";
+import { GithubIcon, LinkedinIcon, FileTextIcon, ArrowDownIcon } from "lucide-react";
 
 import { TopBar } from "./components/TopBar";
 import { About } from "./pages/About";
@@ -44,17 +44,18 @@ export function Hero() {
         </div>
 
         {/* Content */}
-        <div className={`relative z-10 w-[800px] transition-all duration-700 xl:pl-28 ${
+        <div className={`relative z-10 w-[800px] transition-all duration-700 xl:pl-24 ${
               animationComplete
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
             }`}>
 
-          <p className="text-xl uppercase tracking-widest text-gray-300 mb-2 whitespace-nowrap">
-            {currentLang === 'en' ? 'HELLO WORLD, I\'M' : 'Ingeniero • Desarrollador • Diseñador'}
+          <p className="inline-block text-2xl uppercase tracking-widest 
+                        bg-gradient-to-r from-purple-200 to-gray-300 bg-clip-text text-transparent mb-2 whitespace-nowrap">
+            {currentLang === 'en' ? 'HELLO WORLD, I\'M' : 'HOLA MUNDO, SOY'}
           </p>
 
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-1 leading-tight pb-4 whitespace-nowrap"> 
+          <h1 className="text-6xl md:text-7xl lg:text-[105px] font-bold mb-1 leading-tight pb-4 whitespace-nowrap"> 
             <span className="text-white">Israel Trejo</span>
           </h1> 
 
@@ -62,7 +63,7 @@ export function Hero() {
             {currentLang === 'en' ? 'Exploring the vast universe of tech' : 'Explorando el universo de la tecnología'}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 mb-8">
+          {/* <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a href="/resume/Israel_Trejo_Resume.pdf" download="Israel_Trejo_Resume.pdf">
               <button className="px-8 py-4 text-base font-medium rounded-full border-2 border-white bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 hover:shadow-[0_10px_25px_rgba(255,255,255,0.2)]"
                       >
@@ -74,11 +75,11 @@ export function Hero() {
                 {currentLang === 'en' ? 'Contact Info' : 'Contactos'}
               </button>
             </a>
-          </div>
+          </div> */}
 
           {/* Social Links */}
           <div className="flex gap-6 pl-4">
-            <div className="flex gap-6">
+            <div className="flex gap-8">
               <a
                 href="https://www.linkedin.com/in/israeltrejo07/"
                 target="_blank"
@@ -86,7 +87,7 @@ export function Hero() {
                 className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
                 aria-label="LinkedIn"
               >
-                <LinkedinIcon size={32} />
+                <LinkedinIcon size={36} />
               </a>
               <a
                 href="https://github.com/Ndahi21"
@@ -95,7 +96,16 @@ export function Hero() {
                 className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
                 aria-label="GitHub"
               >
-                <GithubIcon size={32} />
+                <GithubIcon size={36} />
+              </a>
+              <a
+                href="/resume/Israel_Trejo_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+                aria-label="Resume"
+              >
+                <FileTextIcon size={36} />
               </a>
             </div>
           </div>
