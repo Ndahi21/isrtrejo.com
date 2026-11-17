@@ -80,33 +80,42 @@ export function Hero() {
           {/* Social Links */}
           <div className="flex gap-6 pl-4">
             <div className="flex gap-8">
-              <a
-                href="https://www.linkedin.com/in/israeltrejo07/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-                aria-label="LinkedIn"
-              >
-                <LinkedinIcon size={36} />
-              </a>
-              <a
-                href="https://github.com/Ndahi21"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-                aria-label="GitHub"
-              >
-                <GithubIcon size={36} />
-              </a>
-              <a
-                href="/resume/Israel_Trejo_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-                aria-label="Resume"
-              >
-                <FileTextIcon size={36} />
-              </a>
+              <div className="group flex flex-col items-center">
+                <a
+                  href="https://www.linkedin.com/in/israeltrejo07/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+                  aria-label="LinkedIn"
+                >
+                  <LinkedinIcon size={36} />
+                </a>
+                <span className="text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">LinkedIn</span>
+              </div>
+              <div className="group flex flex-col items-center">
+                <a
+                  href="https://github.com/Ndahi21"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+                  aria-label="GitHub"
+                >
+                  <GithubIcon size={36} />
+                </a>
+                <span className="text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">GitHub</span>
+              </div>
+              <div className="group flex flex-col items-center">
+                <a
+                  href="/resume/Israel_Trejo_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+                  aria-label="Resume"
+                >
+                  <FileTextIcon size={36} />
+                </a>
+                <span className="text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">Resume</span>
+              </div>
             </div>
           </div>
         </div>
