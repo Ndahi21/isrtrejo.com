@@ -8,7 +8,8 @@ interface TopBarProps {
 export function TopBar({ currentLang, onLanguageChange }: TopBarProps) {
 
   return ( 
-    <nav className="fixed bg-black bg-gradient-to-r from-gray-900 to-black top-0 left-0 w-full z-50 px-6 md:px-12 lg:px-20 py-6">
+    <nav className="fixed bg-black bg-gradient-to-r from-gray-900 to-black top-0 left-0 w-full z-50 px-6 md:px-12 lg:px-20 py-6 relative">
+      <div className="topbar-shine"></div>
       <div className="flex justify-between items-center">
         {/* Logo/Name on the left */}
         <div className="flex gap-8 text-2xl font-bold text-white">

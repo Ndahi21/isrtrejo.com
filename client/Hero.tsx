@@ -29,7 +29,7 @@ export function Hero() {
       
       <section 
         id="home"
-        className="relative justify-center bg-black min-h-screen w-full flex items-center px-6 md:px-12 lg:px-20 overflow-hidden"
+        className="relative justify-center bg-black min-h-screen w-full flex items-center px-6 md:px-12 lg:px-20 overflow-hidden -mt-20"
       >
 
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center 
