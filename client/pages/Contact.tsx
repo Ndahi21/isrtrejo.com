@@ -22,43 +22,36 @@ export function Contact({ language }: ContactProps) {
         <div className="pr-96">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white text-center relative z-10">{language === 'en' ? 'Contact Me' : 'Contáctame'}</h2>
           <div className="flex justify-center gap-10 p-10 border border-2 border-gray-700 rounded-lg px-14 bg-black relative z-10">
-            <div className="flex items-center gap-4">
-              <a
-                href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-                aria-label="LinkedIn"
-              >
-                <LinkedinIcon size={32} />
-              </a>
+            <a
+              href="https://www.linkedin.com/in/israel-trejo-2863a8226/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="flex items-center gap-4 text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+            >
+              <LinkedinIcon size={32} />
               <p className="text-white text-xl">LinkedIn</p>
-            </div>
-            <div className="flex items-center gap-4">
-              <a
-                href="https://github.com/Ndahi21"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-                aria-label="GitHub"
-              >
-                <GithubIcon size={32} />
-              </a>
+            </a>
+            <a
+              href="https://github.com/Ndahi21"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              className="flex items-center gap-4 text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+            >
+              <GithubIcon size={32} />
               <p className="text-white text-xl">GitHub</p>
-            </div>
-            <div className="flex items-center gap-4">
-              <a
-                href="mailto:isrtrejo07@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
-                aria-label="Email"
-              >
-                <Mail size={32} />
-              </a>
+            </a>
+            <a
+              href="mailto:isrtrejo07@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Email"
+              className="flex items-center gap-4 text-white hover:-translate-y-1 transition-all duration-300 hover:drop-shadow-[0_5px_15px_rgba(255,255,255,0.4)]"
+            >
+              <Mail size={32} />
               <p className="text-white text-xl">Email</p>
-              {/* <p className="text-white text-xl">Correo</p> */}
-            </div>
+            </a>
           </div>
         </div>
       </div>
