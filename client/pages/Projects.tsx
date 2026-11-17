@@ -11,7 +11,7 @@ export function Projects({ language }: ProjectsProps) {
       <h2 className="text-4xl md:text-5xl font-bold mb-8 z-0">
         {language === 'en' ? 'My Projects' : 'Mis Proyectos'}
       </h2>
-      <div className="container mx-auto px-6 relative z-50 pr-36">
+      <div className="container mx-auto px-6 relative z-10 pr-36">
         <div className="flex flex-col gap-4 md:gap-6 max-w-5xl mx-auto">
           {(language === 'en' ? projects : proyectos).map((project) => (
             <ProjectCard key={project.title} project={project} />
@@ -19,7 +19,7 @@ export function Projects({ language }: ProjectsProps) {
         </div>
       </div>
       <div>
-        <img src="/images/rocket-launch.png" alt="Decorative" className="absolute z-100 bottom-32 right-[140px] w-[600px] pointer-events-none" />
+        <img src="/images/rocket-launch.png" alt="Decorative" className="absolute bottom-4 right-[140px] w-[520px] pointer-events-none" />
       </div>
     </section>
   )

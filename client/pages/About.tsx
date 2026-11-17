@@ -31,7 +31,7 @@ export function About({ language }: AboutProps) {
                 <p className="mb-4">
                   I'm Israel Trejo, currently a Senior Computer Science student at the University of Houston with a passion 
                   for <span className="font-bold">Data Science</span> and <span className="font-bold">Software Engineering</span>. 
-                  I really like working on projects that makes a great impact on the world.
+                  I enjoy working on projects that makes a great impact on the world.
                   I'm a team player that enjoys working and growing with others!
                 </p>
                 <p>
