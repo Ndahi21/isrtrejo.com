@@ -5,6 +5,7 @@ export type Experience = {
     role: string;
     responsibilities: string[];
     image: string;
+    banner: string;
     link: string;
 };
 
@@ -15,10 +16,11 @@ export const experiences: Experience[] = [
         startDate: "Aug 2026",
         endDate: "Present",
         responsibilities: [
-            "Support the COSMOS contract on-site at the NASA Johnson Space Center",
-            "Developed and organized SolarWinds Support Center dashboards, reducing the time required to locate relevant widgets and information by 50%"
+            "Supporting the COSMOS contract on-site at the NASA Johnson Space Center",
+            "Reorganized the SolarWinds Support Center dashboards, reducing the time required to locate relevant widgets & information by 50%"
         ],
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqn7jQxK6sV3gd0un_9CXLN2TdXcDXBsSyQva8ac0BWJHECFltdVb1Op1F&s=10",
+        banner: "/banners/banner1.png",
         link: "https://www.amentum.com/"
     },
     {
@@ -31,6 +33,7 @@ export const experiences: Experience[] = [
             "Designed and implemented entry and filtering features to create detailed, searchable logs for Ground Control Console systems"
         ],
         image: "/images/LZ_logo.png",
+        banner: "/banners/banner2.png",
         link: "https://lzt.biz/"
     },
     // {
@@ -51,10 +54,11 @@ export const experiences: Experience[] = [
         startDate: "August 2025",
         endDate: "January 2026",
         responsibilities: [
-            "Research & develop solutions for infrastructure problems through cross-disciplinary projects",
-            "Collaborated on projects with fellow assistants, through computer vision, robotics, digital twin technologies, AI and deep learning"
+            "Researched and developed solutions for infrastructure problems through cross-disciplinary projects",
+            "Collaborated on projects with fellow assistants, through computer vision, robotics, digital twin technologies, AI & deep learning"
         ],
         image: "/images/SAIL-Logo.png",
+        banner: "/banners/banner3.png",
         link: "https://sail.cive.uh.edu/"
     },
 ];
@@ -70,6 +74,7 @@ export const experiencias: Experience[] = [
             "Developed and organized SolarWinds Support Center dashboards, reducing the time required to locate relevant widgets and information by 50%"
         ],
         image: "/images/amentum_logo.png",
+        banner: "/banners/banner1.png",
         link: "https://www.amentum.com/"
     },
     {
@@ -82,6 +87,7 @@ export const experiencias: Experience[] = [
             "Diseñó e implementó funciones de entrada y filtrado para crear registros detallados para los sistemas de la Consola de Control Terrestre"
         ],
         image: "/images/LZ_logo.png",
+        banner: "/banners/banner2.png",
         link: "https://lzt.biz/"
     },
     // {
@@ -106,6 +112,7 @@ export const experiencias: Experience[] = [
             "Colaboró en proyectos con otros asistentes, mediante visión por computadora, robótica, tecnologías de gemelo digital, IA y aprendizaje profundo"
         ],
         image: "/images/SAIL-Logo.png",
+        banner: "/banners/banner3.png",
         link: "https://sail.cive.uh.edu/"
     }, 
 ]
